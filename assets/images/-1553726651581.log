@@ -1,0 +1,53 @@
+index.cdn.ts:18 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+
+(anonymous) @ index.cdn.ts:18
+css:1 Failed to load resource: net::ERR_FILE_NOT_FOUND
+css:1 Failed to load resource: net::ERR_FILE_NOT_FOUND
+css:1 Failed to load resource: net::ERR_FILE_NOT_FOUND
+main.js:61 not logged in
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+main.js:151 Object
+p15674164_v_v5_ad.jpg:1 Failed to load resource: the server responded with a status of 403 (Forbidden)
