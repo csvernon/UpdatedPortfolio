@@ -6,6 +6,7 @@ body {
   color: #4aaaa5;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   width: 100%;
+  position: absolute;
 }
 #name {
 padding-top: 50px;
@@ -139,7 +140,7 @@ textarea{
   font-size: 14pt;
 }
 .rpg-game{
-  background-image: url("../images/crystalCollector.png");
+  background-image: url("../images/See-The-Stars.jpg");
   background-size: 100%
 }
 .rock-paper-scissors{
