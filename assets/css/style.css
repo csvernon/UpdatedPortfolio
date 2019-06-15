@@ -140,20 +140,24 @@ textarea{
   font-size: 14pt;
 }
 .Project2{
-  background-image: url("../images/See-The-Stars.jpg");
+  background-image: url("../images/./reducedImages/SeeTheStarsSmall.jpg");
   background-size: 100%
 }
 .rock-paper-scissors{
-  background-image: url("../images/RPS.png");
+  background-image: url("../images/./reducedImages/RPSsmall.jpg");
  background-size: 100%
 }
 .DateNight{
-  background-image: url("../images/dateNight.png");
+  background-image: url("../images/./reducedImages/DateNightsmall.png");
   background-size: 100%
 }
 .hangman{
-  background-image: url("../images/hangman2.png");
+  background-image: url("../images/./reducedImages/Hangman2small.jpg");
   background-size: 100%
+}
+.trivia-game{
+  background-image: url("../images/./reducedImages/TriviaSmall.jpg");
+  background-size: 100%;  
 }
 .portfolio{
   width: 450px;
@@ -163,12 +167,7 @@ textarea{
   position: relative;
    
  }
- .trivia-game{
-  background-image: url("../images/trivia.png");
-  background-size: 100%;
-  /* width: 4000px; */
-  
-}
+
 
  .portfolio:hover {
    border-style: inset;
