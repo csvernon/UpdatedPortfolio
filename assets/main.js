@@ -14,22 +14,7 @@ var name = "";
 var email = "";
 var message = "";
 
-$("#submitButton").on("click", function (event) {
-  event.preventDefault();
 
-  // Get the input values
-  name = $("#nameInput").val().trim();
-  email = $("#emailInput").val().trim();
-  message = $("#messageInput").val().trim();
-
-  dataRef.ref().push({
-    Name: name,
-    Email: email,
-    Message: message,
-    dateAdded: firebase.database.ServerValue.TIMESTAMP
-  });
-  location.reload();
-})
 
 
 var page = "index";
@@ -70,7 +55,7 @@ if (page != "contact"){
   $("#page").append('Name<input id="nameInput" type="text" placeholder="John Smith" pattern="[A-Z]+[A-Za-z]* [A-Z]+[A-Za-z]*" required>');
   $("#page").append('Email<input id="emailInput" type="email" placeholder="example@email.com" pattern="[A-Za-z0-9.]+@[A-Za-z0-9]+.[A-Za-z0-9]+" required>');
   $("#page").append('Message<textarea id="messageInput" maxlength="1000"></textarea>');
-  $("#page").append('<button id="submitButton" action="#" class="color" required>Submit</button>');
+  $("#page").append('<button onclick="submitResponse()" id="submitButton" action="#" class="color" required>Submit</button>');
   $("#page").append("</form>");
   page = "contact";
 }
@@ -90,3 +75,19 @@ $("#portfolioBtn").on("click", function (event) {
   }
 });
 
+function submitResponse(){
+  event.preventDefault();
+
+  // Get the input values
+  name = $("#nameInput").val().trim();
+  email = $("#emailInput").val().trim();
+  message = $("#messageInput").val().trim();
+
+  dataRef.ref().push({
+    Name: name,
+    Email: email,
+    Message: message,
+    dateAdded: firebase.database.ServerValue.TIMESTAMP
+  });
+  location.reload();
+};
