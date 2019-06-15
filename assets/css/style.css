@@ -238,7 +238,10 @@ iframe{
       margin: auto;
       text-align: center
   }
- 
+  .portfolio{
+    width: 320px;
+    height: 240px;
+   }
 
 
 }
@@ -262,4 +265,8 @@ iframe{
 section {
   width: 90%;
 }
+.portfolio{
+  width: 320px;
+  height: 240px;
+ }
 }
