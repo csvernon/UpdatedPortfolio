@@ -182,6 +182,9 @@ textarea{
     text-align: center;
     font-size: 24px;
   }
+  h2{
+    padding-top: 0;
+  }
 	header{
 		width: 100%;
         height: 5%
@@ -190,20 +193,22 @@ textarea{
     width:100%;
     text-align:center;
     margin:auto;
-    padding-top: 50px;
-    padding-left: 25px;
     float: none;
   }
-
+ul {
+  display: initial;
+}
+#ULabout {
+  padding-left: 0;
+}
   h2{
     margin:auto;
     padding-top: 50px;
 
 }
 .portfolio{
-  width: 400px;
-  height: 275px;
-text-align: center;
+  width: 320px;
+  height: 240px;
  }
  section {
    max-width: 80%;
@@ -228,21 +233,28 @@ iframe{
 	header{
 		width: 100%;
   }
+  h2{
+    padding-top: 0;
+  }
   .header-bar{
     max-width: 100%;
   }
   .link-container{
       padding-right: 1.5rem;
-      float: right;
       margin: auto;
-      text-align: center
+      text-align: center;
+      display: inline;
   }
   .portfolio{
     width: 320px;
     height: 240px;
    }
-
-
+   ul {
+    display: initial;
+  }
+  #ULabout {
+    padding-left: 0;
+  }
 }
 @media only screen and (max-width: 1000px) {
     body{
@@ -254,8 +266,9 @@ iframe{
     }
     .link-container{
         padding-right: 1.5rem;
-        float: right;
         margin: auto;
+        display: inline;
+
     }
   
     header{
@@ -264,8 +277,17 @@ iframe{
 section {
   width: 90%;
 }
+ul {
+  display: initial;
+}
+h2{
+  padding-top: 0;
+}
 .portfolio{
   width: 320px;
   height: 240px;
  }
+ #ULabout {
+  padding-left: 0;
+}
 }
