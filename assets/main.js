@@ -23,7 +23,7 @@ $(document).ready(function () {
   $("#page").text("");
   $("#page").append("<h2>About</h2>");
   $("#page").append("<hr>");
-  $("#page").append("<p>From a young age I have been obsessed with technology, this passion lead me through college and into the professional workplace where I focused on Information Technology. After nearly two years working as an IT Specialist, my creative drive brought me to the UNC Coding Bootcamp where I studied to be a Full-Stack Developer. I have experience using technology to solve problems efficiently and automating processes to make sure they execute flawlessly. It is my personal goal to make a positive impact wherever I go, in my personal life and in the workplace. </p>");
+  $("#page").append("<p>From a young age I have been obsessed with technology, this passion led me through college and into the professional workplace where I focused on Information Technology. After nearly two years working as an IT Specialist, my creative drive brought me to the UNC Coding Bootcamp where I studied to be a Full-Stack Developer. I have experience using technology to solve problems efficiently and automating processes to make sure they execute flawlessly. It is my personal goal to make a positive impact wherever I go, in my personal life and in the workplace. </p>");
   $("#page").append('<div class="container">');
   $("#page").append('<iframe src="https://drive.google.com/file/d/19AP0stLcvnjB_Hq1v7BoRTO32_fHxrA7/preview" width="1200" height="600"></iframe>');
   $("#page").append("</div>");
