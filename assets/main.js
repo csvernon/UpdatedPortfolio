@@ -27,7 +27,7 @@ $(document).ready(function () {
   $("#page").append('<div class="container">');
   $("#page").append('<iframe src="https://drive.google.com/file/d/1b_lbKyqKDWKhjKec2Fp_KwTv4OYAJGeZ/preview" width="1200" height="600"></iframe>');
   $("#page").append("</div>");
-  $("#page").append('<a href="https://drive.google.com/uc?export=download&id=1b_lbKyqKDWKhjKec2Fp_KwTv4OYAJGeZ" target="_blank">Download</a>');
+  $("#page").append('<a href="https://drive.google.com/uc?export=download&id=19AP0stLcvnjB_Hq1v7BoRTO32_fHxrA7" target="_blank">Download</a>');
 
 });
 
