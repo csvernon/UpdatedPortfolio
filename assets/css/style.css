@@ -9,7 +9,7 @@ body {
   position: absolute;
 }
 #name {
-padding-top: 50px;
+padding-top: 0px;
 }
 #sidebar{
   border-right: red, 10px, dashed;
