@@ -121,6 +121,9 @@ textarea{
 .grey {
   color: #f5f5f5;
 }
+.paddbottom {
+  border: 1px solid transparent;
+}
 .color {
   background-color:#4aaaa5;
   color: #ffffff;
