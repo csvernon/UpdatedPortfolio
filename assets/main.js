@@ -64,7 +64,7 @@ if (page != "contact"){
 $("#portfolioBtn").on("click", function (event) {
   if (page != "portfolio"){
   $("#page").text("");
-  $("#page").append('<h2>Portfolio</h2>');
+  $("#page").append('<h2>Portfolio (Some projects are depreciated)</h2>');
   $("#page").append("<hr>");
   $("#page").append('<a target="_blank" href="https://csvernon.github.io/DateNight/" class="portfolio DateNight"><div class="color banner">Date Night</div></a>');
   $("#page").append('<a target="_blank" href="https://csvernon.github.io/Word-Guess-Game/" class="portfolio hangman"><div class="color banner">Hangman</div></a>');
